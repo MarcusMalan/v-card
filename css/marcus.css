@@ -1,0 +1,67 @@
+.block-left {
+    background-color: #000;
+    background-image: url(../img/marcus.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.block-right {
+    float: right;
+}
+
+.social-list ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 0;
+}
+
+.social-list img {
+    width: 50%
+}
+
+.block {
+    width: 50%;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text-containter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 60px;
+}
+
+h1 {
+    font-family: 'Ovo', serif;
+    color: #cccdd2;
+}
+
+p {
+    color: #b7b7b7;
+    font-family: 'Muli', sans-serif;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #fff;
+}
+
+.inner-container {
+    display: table-cell;
+    vertical-align: middle;
+}
